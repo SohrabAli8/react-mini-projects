@@ -2,7 +2,7 @@ import React from 'react'
 
 function ImageSlider() {
   return (
-    <div>ImageSlider</div>
+    <div>ImageSlider changed</div>
   )
 }
 
