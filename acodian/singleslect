@@ -1,0 +1,44 @@
+// import React, { useState } from 'react'
+// import data from '../../data'
+    
+// function Acodian() {
+//     const [single,setSingle]= useState(null)
+//     const [current,setCurrent]= useState(null)
+
+//     const handleSingleSelection=(selectedId)=> {
+//         setSingle(selectedId===single?null:selectedId)
+        
+//     }
+    
+
+//   return (
+//     <div className='flex flex-col justify-center bg-red-400 w-full min-h-screen'>
+//         <div className=' flex justify-center font-semibold text-amber-800'>
+//             Acodian Selector
+//         </div>
+//         <div >
+//         {data && data.length>0?<div className='items-center'>
+
+//             { data.map((dataItem)=>( 
+//                 <div key={dataItem.id} className='flex flex-col items-center'>
+//                     {dataItem.question}
+//             <span onClick={()=>handleSingleSelection(dataItem.id) } className='cursor-pointer'>
+                
+//                 {dataItem.id===single ?'-':'+'
+//                 }
+//                 </span>
+//                     {dataItem.id===single &&<p className='m-4'> {dataItem.answer}</p>}
+//             </div>
+        
+//         ))}
+           
+//         </div>
+        
+//         :<div>Nothing to show</div>
+//         }
+//         </div>
+//     </div>
+//   )
+// }
+
+// export default Acodian
