@@ -1,9 +1,18 @@
-import React from 'react'
+// import React, { useEffect, useState } from 'react'
 
-function ImageSlider() {
-  return (
-    <div>ImageSlider changed</div>
-  )
-}
+// function ImageSlider() {
+//     const [error,setError]= useState('')
+//     const [loading,setLoading]= useState(false)
+//     const [image,setImage]= useState([])
 
-export default ImageSlider
+//     useEffect(()=>(
+//         if (url!=='') fetch(url)
+            
+//     ),[url])
+
+//   return (
+//     <div className='bg-'>ImageSlider changed</div>
+//   )
+// }
+
+// export default ImageSlider
