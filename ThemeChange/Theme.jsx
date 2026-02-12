@@ -3,6 +3,8 @@ import React, { useState } from 'react'
 function Theme() {
 
     const [color,setColor]= useState('#FFFFFF')
+
+
     const changeColor=()=>{
         if(color==='#3E3E42')
         setColor('#FFFFFF')
